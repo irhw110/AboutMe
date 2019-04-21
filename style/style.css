@@ -24,7 +24,7 @@ body {
                      url('../src/bg.jpg');
   background-repeat: no-repeat;
   border-bottom: solid 1em #9C51B6;
-  background-size: 100% 150%;
+  background-size: cover;
 }
 
 .masthead-intro {
@@ -112,7 +112,7 @@ body {
   grid-column-gap: 50px;
   object-fit:fill;
   grid-template-columns: repeat(auto-fill, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(autofill, minmax(350px,1fr));
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
