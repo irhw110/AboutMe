@@ -111,7 +111,7 @@ body {
   grid-row-gap: 50px;
   grid-column-gap: 50px;
   object-fit:fill;
-  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fill, 1fr);
   grid-template-rows: repeat(2, 1fr);
   text-align: center;
   padding: 20px 0;
@@ -129,6 +129,7 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 120px
+
 }
 
 .type2 {
@@ -168,7 +169,7 @@ body {
 
 p {
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 18px;
+  font-size: 1em;
 }
 h1{
   font-family: "Gentium Book Basic", Georgia, serif;
