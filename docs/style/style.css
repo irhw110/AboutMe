@@ -1,0 +1,194 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 13px;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-image: linear-gradient(
+                       rgba(255,255,255, .85),
+                       rgba(255,255,255, .85)),
+                       url('../src/doodle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacticon{
+  width: 30px;
+  height: 30px;
+}
+
+
+.masthead {
+  padding: 6em;
+  background-image:linear-gradient(
+                     rgba(0,0,20,.65),
+                     rgba(0,0,0,.65)),
+                     url('../src/bg.jpg');
+  background-repeat: no-repeat;
+  border-bottom: solid 1em #9C51B6;
+  background-size: 100% 150%;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    color: #F1C863;
+    margin-top: 2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 5em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* Avatar profile picture*/
+.avatar {
+  display: block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+}
+
+.circledecor1{
+  display: block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FC5A8D;
+}
+.circledecor2{
+  display: block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color:#02A4D3 ;
+}
+.circledecor3{
+  display: block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FFE4CD;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: white;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.grid-container {
+  margin-top: 50px;
+  margin-left:  200px;
+  margin-right:  200px;
+  display: grid;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 350px 350px 350px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.type1 {
+  background-color: #FFFFFF;
+  border: 15px solid #84DE02;
+  text-align: justify;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 120px
+}
+
+.type2 {
+  text-align: justify;
+  background-color: #FFFFFF;
+  border: 15px solid #E936A7;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 40px;
+}
+
+.type3 {
+  text-align: justify;
+  background-color: #FFFFFF;
+  border: 15px solid #FF8C00;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 40px;
+}
+
+.type4 {
+  background-color: #FFFFFF;
+  border: 15px solid #76D7EA;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding-top:  20px;
+  padding-right:  20px;
+  padding-left:  20px;
+  align: start;
+}
+
+p {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 18px;
+}
+h1{
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+ul, li {
+  display:inline-block;
+}
+
+.centering{
+  display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
