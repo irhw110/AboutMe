@@ -24,15 +24,8 @@ body {
                      url('../src/bg.jpg');
   border-bottom: solid 1em #9C51B6;
   background-size: cover;
-  height: auto;
-  width: auto;
 }
 
-.masthead-intro {
-    margin-bottom: 0.1em;
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em;
-}
 
 .masthead-heading {
     color: #F1C863;
@@ -50,7 +43,6 @@ body {
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2em;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -88,21 +80,7 @@ body {
   background-color: #FFE4CD;
 }
 
-.masthead-intro {
-  margin-bottom: 0.1em;
-  font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em;
-    color: white;
-}
 
-.masthead-heading {
-  margin-top: -0.2em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 6em;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
 
 .grid-container {
   margin-top: 50px;
