@@ -91,7 +91,7 @@ body {
   grid-column-gap: 50px;
   object-fit:fill;
   grid-template-columns: repeat(auto-fill, 1fr);
-  grid-template-rows: repeat(autofill, minmax(350px,1fr));
+  grid-template-rows: repeat(autofill, 1fr);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
