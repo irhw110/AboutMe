@@ -110,8 +110,8 @@ body {
   display: grid;
   grid-row-gap: 50px;
   grid-column-gap: 50px;
-  object-fit: contain;
-  grid-template-columns: repeat(3, 1fr);
+  object-fit:fill;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
   grid-template-rows: repeat(2, 1fr);
   text-align: center;
   padding: 20px 0;
