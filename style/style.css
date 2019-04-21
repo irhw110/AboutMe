@@ -22,9 +22,10 @@ body {
                      rgba(0,0,20,.65),
                      rgba(0,0,0,.65)),
                      url('../src/bg.jpg');
-  background-repeat: no-repeat;
   border-bottom: solid 1em #9C51B6;
   background-size: cover;
+  height: auto;
+  width: auto;
 }
 
 .masthead-intro {
