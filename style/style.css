@@ -1,11 +1,3 @@
-a:hover{
-    opacity: .75;
-}
-
-i{
-    margin-right: 15px;
-}
-
 .navbar{
     height: 60px;
 }
@@ -16,8 +8,7 @@ i{
 	border-radius: 50%;
 	margin-bottom: 30px;
     
-}
-
+  }
 @font-face {
     font-family: 'fontuna-bold'; 
     src: url('../font/Fontuna_Bold.ttf'); 
@@ -32,7 +23,7 @@ i{
     background-image:linear-gradient(
                      rgba(0,0,20,.45),
                      rgba(0,0,0,.45)),
-                     url('https://irhw110.github.io/src/star_bg.jpg');
+                     url('../src/star_bg.jpg');
     width: 100%;
     height: 800px;
 	background-size: cover;
@@ -64,7 +55,13 @@ i{
 .nav-list{
     padding: .5rem 1.5rem;
 }
+a:hover{
+    opacity: .75;
+}
 
+i{
+    margin-right: 15px;
+}
 .profile_style {
     color: #F1C863;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -74,7 +71,7 @@ i{
     text-align: center;
   }
 
-  a, p{
+a, p{
       text-align: justify;
       font-family: neue-haas-unica,Verdana;
   }
@@ -85,14 +82,21 @@ i{
       color: #5c92b6;
   }
 
-
+  #cv{
+    background-color: white; 
+    padding: 9px;
+    font-family: neue-haas-unica,Verdana;
+    color: #5c92b6;
+  }
 
   .quote{
       font-family: fontuna-bold,Verdana;
       font-size: 50px;
   }
 
-.carousel-size{
+
+
+  .carousel-size{
       width:200px;
       height:350px;
   }
@@ -102,13 +106,6 @@ i{
     height: 30vh;
     background-color: rgb(99, 241, 135);
 }
-  #footer{
+#footer{
       padding: 40px;
-  }
-
-  #cv{
-    background-color: white; 
-    padding: 9px;
-    font-family: neue-haas-unica,Verdana;
-    color: #5c92b6;
-  }
+ }
