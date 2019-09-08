@@ -20,10 +20,6 @@
 }
 
 .header_pict{
-    background-image:linear-gradient(
-                     rgba(0,0,20,.45),
-                     rgba(0,0,0,.45)),
-                     url('../src/star_bg.jpg');
     width: 100%;
     height: 800px;
 	background-size: cover;
